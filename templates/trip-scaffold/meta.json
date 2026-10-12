@@ -1,0 +1,18 @@
+{
+  "title": "旅行攻略手册",
+  "subtitle": "请先填写 brief 并运行 tg run",
+  "cover_facts": [
+    "日期：待定",
+    "人数：待定",
+    "风格：待定"
+  ],
+  "footer_note": "门票、航班、天气、道路信息出发前请再次核验；地图不替代实时导航。",
+  "xlsx_itinerary": "每日行程与预算.xlsx",
+  "xlsx_waypoints": "导航与摄影点位.xlsx",
+  "html_handbook": "旅行攻略手册.html",
+  "html_map": "A3总路线图.html",
+  "pdf_handbook": "旅行攻略手册.pdf",
+  "pdf_map": "A3总路线图.pdf",
+  "required_terms": [],
+  "forbidden_terms": []
+}

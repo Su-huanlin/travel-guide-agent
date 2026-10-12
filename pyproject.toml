@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "travel-guide-agent"
+version = "0.1.0"
+description = "CLI agent that builds reviewable multi-day travel handbooks (MD/CSV → Excel/HTML/PDF)"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "openai>=1.40.0",
+  "openpyxl>=3.1.2",
+  "python-dotenv>=1.0.0",
+  "typer>=0.12.0",
+  "rich>=13.7.0",
+  "pydantic>=2.7.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0.0"]
+
+[project.scripts]
+tg = "travel_guide.cli:app"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+travel_guide = ["prompts/*.md"]
