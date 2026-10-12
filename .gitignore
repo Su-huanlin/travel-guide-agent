@@ -25,6 +25,9 @@ Thumbs.db
 workspace/
 *.log
 
+# Private learning notes (keep on this machine only)
+local-notes/
+
 # Keep template output empty
 templates/trip-scaffold/output/*
 !templates/trip-scaffold/output/.gitkeep
