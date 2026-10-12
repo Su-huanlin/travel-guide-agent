@@ -10,9 +10,9 @@
 
 ## 仓库地址
 
-推送完成后填写（或看 GitHub 页面）：
+https://github.com/Su-huanlin/travel-guide-agent
 
-`https://github.com/Su-huanlin/travel-guide-agent`
+学习入口：[docs/00-START-HERE.md](docs/00-START-HERE.md)
 
 ## 5 分钟上手
 
